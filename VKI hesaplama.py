@@ -5,13 +5,13 @@ if boy>100:
      
      indeks = (kilo/(boy/100)**2)
 
-elif boy<100:
+elif boy<3:
        
        indeks = (kilo/(boy**2))
 
 else:
         
-        print("lütfen adam akıllı", boy , "ten başka birşey giriniz")
+        print("lütfen geçerli bir değer giriniz")
 
         exit()
 
@@ -43,6 +43,7 @@ if indeks >= 35 and indeks <40:
 if indeks >= 40:
   
                 print("3.DERECE OBEZ\n", "ideal kilonuz", boy - 100)
+
 
 
 
