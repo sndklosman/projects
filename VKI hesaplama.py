@@ -11,7 +11,7 @@ elif boy<3:
 
 else:
         
-        print("lütfen geçerli bir değer giriniz")
+        print("lütfen geçerli bir 'boy' değeri giriniz")
 
         exit()
 
@@ -43,6 +43,7 @@ if indeks >= 35 and indeks <40:
 if indeks >= 40:
   
                 print("3.DERECE OBEZ\n", "ideal kilonuz", boy - 100)
+
 
 
 
